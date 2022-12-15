@@ -25,15 +25,18 @@ const usuario1=[
 const HomePage = () => {
     const navigate=useNavigate();
     const handleOnClick=useCallback(()=>navigate("/Auto",{},[navigate]))
-    
+    //se crea para ingresar usuario de más arriba
     const [user, setUser]=useState(usuario1)
+    
+    //se crea para editar usuario
     const [usuarioEditado, setUsuarioEditado]=useState(null);
 
-
+//se crea para eliminar usuario asociado a rut
     const userDelete =(rutUsuario)=>{
         const changeUser=user.filter(usuario=>usuario.rut != rutUsuario);
         setUser(changeUser)
     }
+    //se crea para agregar usuario
     const userAdd=(usuario)=>{
         const addUsuario =[
             //mantener los datos de user y agregar lo que yo entrego aquí (usuario)
@@ -50,7 +53,8 @@ const HomePage = () => {
     return (
         
         <body class="todofondo"  >
-            
+
+            {/* //se muestran los componente en la página y se agregan las funciones que contienen */}
             <div>
             <div class="row">
                 <div class="col">
@@ -71,4 +75,5 @@ const HomePage = () => {
 
     )
 }
+//se exporta la página al index
 export default HomePage;

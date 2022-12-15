@@ -2,6 +2,7 @@ import React from 'react';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import { HomePage, AutoPage } from './pages';
  
+//esto eran pruebas personales
 //Aqui importamos nuestra imagen
 /* import perroblanco from './img/perroblanco.jpg'; */
 
@@ -14,6 +15,7 @@ const App = ()=>{
       </Routes>
     </BrowserRouter>
     
+    //Más pruebas personales
    /*  <div>
       <h1>Cosas que aman los perritos</h1>
       <section>
@@ -50,5 +52,5 @@ const App = ()=>{
     )
 
 }
-
+//exportamos App
 export default App;

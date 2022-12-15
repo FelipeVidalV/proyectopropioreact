@@ -6,8 +6,9 @@ import { pink, purple, red } from '@mui/material/colors';
 import Switch from '@mui/material/Switch';
 
 
-
+//se crea el componente AutoComponent
 const AutoComponent = () => {
+  //A modo de prueba se utiliza un botón desde bootstrap
     const GreenSwitch = styled(Switch)(({ theme }) => ({
         '& .MuiSwitch-switchBase.Mui-checked': {
           color: purple[900],
@@ -21,8 +22,10 @@ const AutoComponent = () => {
       }));
       
       const label = { inputProps: { 'aria-label': 'Color switch demo' } };
-    return (
-        
+    
+    //se utiliza el return para mostrar el contenido
+      return (
+        //Se agrega un formulario desde bootstrap, se eedita para que solicite info de un auto
     <div class ="container"id="formularioAuto">
         <h1>Formulario de ingreso Auto</h1>
         <div class="input-group flex-nowrap">
@@ -37,13 +40,14 @@ const AutoComponent = () => {
                 <span class="input-group-text" id="addon-wrapping">Precio</span>
                 <input type="text" class="form-control" placeholder="18000000" aria-label="Precio" aria-describedby="addon-wrapping"></input>
             </div>
-            
+            {/* Se agrega un botón todavía sin funcionalidad */}
             <div class="boton" id="auto"><Boton  infoBoton={'Agregar auto'}/></div>
                 <br/>
-                
+                {/* se agrega el switch de prueba */}
                 <GreenSwitch {...label} defaultChecked />
     </div>
 
     )
 }
+//se exporta el Autocomponent para luego importarlo en el index
 export default AutoComponent;

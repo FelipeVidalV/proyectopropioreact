@@ -1,7 +1,9 @@
 import React from "react";
-
+//se crea el componente Botón
 const Boton = ({infoBoton,handleOnClick}) => {
+    
     return (
+        //se crea el botón
         <div>
         <button type="button" 
         class="btn btn-danger"
@@ -11,4 +13,5 @@ const Boton = ({infoBoton,handleOnClick}) => {
     )
 
 }
+//se exporta el componente para importarlo en el index
 export default Boton;

@@ -1,11 +1,13 @@
 import React from "react"
 
+//se crea el componente TablaAuto
 const TablaAuto = () => {
     return (
 <div>
+        {/* //creo un contenedor para  ordenar la tabla y le agrego el título */}
         <div class = "container" id="tablaAuto">
             <h1>Tabla Auto</h1>
-
+{/* //se crea una tabla para mostrar los datos que ingresaremos en el formulario */}
             <table class="table">
 
                 <thead>
@@ -20,6 +22,7 @@ const TablaAuto = () => {
 
             </table>
         </div>
+        {/* //estas son tarjetas que estuve probando por mi cuenta para aprender a posicionarlas en css */}
         <div  id="tarjetas" >
         <div class="card" id="tarjetas" style={{width: '18rem'}}>
         <img src="..." class="card-img-top" alt="..."/>
@@ -37,4 +40,6 @@ const TablaAuto = () => {
       </div>
     )
 }
+
+//se exporta el componente para importarlo en index
 export default TablaAuto;
