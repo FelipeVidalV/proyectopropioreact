@@ -8,7 +8,7 @@ const TablaUsuario = ({usuarios, deleteUser, setUsuarioEditado}) => {
         //agrego un contenedor para ordenar la tabla y agrego título
         <div class = "container" id="tablaUsuario" >
             <h1>Tabla Usuario</h1>
-//se crea la tabla para mostrar datos del usuario
+{/* //se crea la tabla para mostrar datos del usuario */}
             <table class="table">
 
                 <thead>
@@ -53,7 +53,7 @@ const TablaUsuario = ({usuarios, deleteUser, setUsuarioEditado}) => {
                   type="button"
                   class="btn btn-warning"
                   onClick={() => {
-                    (usuario);
+                    setUsuarioEditado(usuario);
                   }}
                 >
                  Editar
