@@ -1,0 +1,98 @@
+
+
+
+
+
+
+
+
+.container#formularioAuto {
+  width: 600px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  background-color: rgb(216, 187, 214);
+  display: block;
+  border-radius: 10px;
+
+
+}
+
+.container#formularioUsuario {
+  width: 600px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  background-color: rgb(216, 187, 214);
+  display: block;
+  border-radius: 10px;
+
+}
+
+.container#tablaAuto {
+  width: 800px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  background-color: rgb(216, 187, 214);
+  display: block;
+  border-radius: 10px;
+
+
+}
+
+.container#tablaUsuario {
+  width: 800px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  background-color: rgb(216, 187, 214);
+  display: block;
+  border-radius: 10px;
+
+}
+
+.boton#auto{
+  
+  float: right;
+  padding-top: 20px;
+
+  
+}
+.boton#usuario{
+  float: right;
+  padding-top: 20px;
+  
+}
+
+#tarjetas{
+  
+  
+  justify-content: center;
+  width: 100%;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 50px;
+  
+  
+  display: flex; 
+  
+}
+#botonUsuario{
+  float: right;
+  padding-top: 10px;
+}
